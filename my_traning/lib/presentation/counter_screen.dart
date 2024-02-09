@@ -1,5 +1,5 @@
-import 'package:counter/presentation/counter_logic.dart';
 import 'package:flutter/material.dart';
+import 'package:my_traning/presentation/counter_logic.dart';
 
 class CounterScreen extends StatefulWidget {
   const CounterScreen({super.key});

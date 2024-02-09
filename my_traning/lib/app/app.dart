@@ -1,7 +1,7 @@
 
 
-import 'package:counter/presentation/counter_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:my_traning/presentation/counter_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
