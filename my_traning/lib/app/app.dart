@@ -1,7 +1,6 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:my_traning/presentation/counter_screen.dart';
+import 'package:my_traning/app/routes.dart';
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -12,7 +11,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Counter App',
       theme: ThemeData(primarySwatch: Colors.orange),
-      home:const CounterScreen(),
+      initialRoute: '/WellcomeScreen',
+      routes: routes,
     );
   }
 }
